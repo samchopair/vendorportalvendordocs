@@ -302,7 +302,7 @@ If you can't find a solution to your problem here, please contact support using 
 **Problem**: Category tree doesn't load or appears empty in the template builder.
 
 **Possible Causes**:
-- Categories haven't been synced from Catsy
+- Categories haven't been synced
 - Network connectivity issues
 - Browser cache issue
 - Permission issues
@@ -311,7 +311,7 @@ If you can't find a solution to your problem here, please contact support using 
 1. Refresh the page
 2. Check internet connection
 3. Clear browser cache and reload
-4. Contact administrator to sync categories from Catsy
+4. Contact administrator to sync categories
 5. Try a different browser
 6. Verify you have permission to access categories
 
@@ -322,13 +322,13 @@ If you can't find a solution to your problem here, please contact support using 
 **Possible Causes**:
 - Attributes not assigned to your user or organization
 - Attribute groups not configured
-- Attributes not synced from Catsy
+- Attributes not synced
 - Permission issues
 
 **Solutions**:
 1. Contact administrator to verify attribute assignments
 2. Check that attribute groups are assigned to your organization
-3. Ask administrator to sync attributes from Catsy
+3. Ask administrator to sync attributes
 4. Verify you have permission to access attributes
 5. Try selecting a different category (attributes may be category-specific)
 
@@ -530,7 +530,7 @@ A: Pending means your batch is awaiting administrator review. No action is requi
 
 **Q: What does "Approved" status mean?**
 
-A: Approved means your batch has been reviewed and accepted by an administrator. The products are now ready for synchronization to Catsy.
+A: Approved means your batch has been reviewed and accepted by an administrator. The products are now ready for synchronization.
 
 **Q: What does "Rejected" status mean?**
 
@@ -548,7 +548,7 @@ A: Use the category dropdown in the template to see all available categories. Se
 
 **Q: Can I request new categories?**
 
-A: Categories are synced from Catsy and managed by administrators. Contact your administrator to request new categories.
+A: Categories are managed by administrators. Contact your administrator to request new categories.
 
 **Q: What are attribute groups?**
 
@@ -611,21 +611,21 @@ A: Your data (products, batches) remains in the system even if your account is d
 
 A: Yes, you can download batch Excel files which contain your product data. Administrators can also export product data for you if needed.
 
-### Catsy Sync Questions
+### Product Sync Questions
 
-**Q: What is Catsy?**
+**Q: What is the product sync system?**
 
-A: Catsy is the external Product Information Management (PIM) system where approved products are synchronized for final publication and distribution.
+A: The system is where approved products are synchronized for final publication and distribution.
 
-**Q: When do my products sync to Catsy?**
+**Q: When do my products sync?**
 
-A: Products are eligible for Catsy sync after batch approval. Administrators control when and how products are synced to Catsy.
+A: Products are eligible for sync after batch approval. Administrators control when and how products are synced.
 
-**Q: Can I see if my products have been synced to Catsy?**
+**Q: Can I see if my products have been synced?**
 
 A: Product sync status may be visible in the product detail view, depending on system configuration. Contact your administrator for sync status information.
 
-**Q: What if my product fails to sync to Catsy?**
+**Q: What if my product fails to sync?**
 
 A: Administrators monitor sync failures and will work to resolve issues. You may be contacted if product data needs to be corrected.
 

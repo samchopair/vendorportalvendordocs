@@ -67,7 +67,7 @@ Update your profile information, change password, and configure preferences.
 1. **[View all your products](./product-management.md#product-list)** in the Products page
 2. **[Filter by status](./product-management.md#filtering)** to see approved, pending, or rejected products
 3. **[View product details](./product-management.md#product-details)** to see attributes and approval history
-4. Track which products have been synced to Catsy
+4. Track which products have been synced
 
 ## Quick Reference
 

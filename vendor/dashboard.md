@@ -48,7 +48,7 @@ Four prominent cards at the top of the dashboard display your key metrics:
 - **Icon**: Check circle
 - **Color**: Green accent
 - **Purpose**: Shows how many of your products have been successfully accepted
-- **Note**: Approved products are ready for synchronization to Catsy
+- **Note**: Approved products are ready for synchronization
 
 #### Pending Review
 
@@ -304,7 +304,7 @@ From the dashboard, you can quickly navigate to:
 | Status | Color | Meaning | Next Steps |
 |--------|-------|---------|------------|
 | **Pending** | Yellow | Awaiting admin review | Wait for review (24-48 hours) |
-| **Approved** | Green | Batch accepted | Products will be synced to Catsy |
+| **Approved** | Green | Batch accepted | Products will be synced |
 | **Rejected** | Red | Batch not accepted | Review feedback, correct issues, resubmit |
 
 ### Product Status Badges
@@ -413,7 +413,7 @@ This is normal for new accounts - start by uploading your first batch!
 
 **What to do**:
 - Celebrate! Your products were accepted
-- Products will be synced to Catsy by administrators
+- Products will be synced by administrators
 - Continue with your next batch
 
 ### Scenario 3: Batch Rejected

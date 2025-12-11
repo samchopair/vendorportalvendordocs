@@ -30,7 +30,7 @@ Different types of notifications inform you about various events:
 
 **For Admin Users:**
 - **Batch Submitted**: New batch submitted by vendor for review
-- **Upload Complete**: Product upload to Catsy finished
+- **Upload Complete**: Product upload finished
 - **Sync Complete**: Category or product sync finished
 - **Sync Error**: Sync operation encountered errors
 - **System**: Important system announcements
@@ -39,7 +39,7 @@ Different types of notifications inform you about various events:
 - **Batch Approved**: Your batch has been approved
 - **Batch Rejected**: Your batch has been rejected with feedback
 - **Upload Progress**: Real-time upload progress updates
-- **Upload Complete**: Your upload to Catsy finished
+- **Upload Complete**: Your upload finished
 - **System**: Important system announcements
 
 **For All Users:**
@@ -146,14 +146,14 @@ The notification badge on the bell icon:
 ### Upload Notifications
 
 **Upload Progress** (Real-Time, Not Persisted)
-- **When**: Products are being uploaded to Catsy
+- **When**: Products are being uploaded
 - **Contains**: Progress percentage, current count, total count
 - **Display**: Progress bar with percentage
 - **Updates**: Real-time updates every few seconds
 - **Note**: Not saved to database, only visible while online
 
 **Upload Complete**
-- **When**: Product upload to Catsy finishes
+- **When**: Product upload finishes
 - **Contains**: Success count, failure count, total count, error summary
 - **Action**: Click to view upload history details
 - **Priority**: Normal (or High if all uploads failed)

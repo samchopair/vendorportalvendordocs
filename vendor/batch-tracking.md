@@ -31,7 +31,7 @@ Understanding the batch lifecycle helps you know what to expect after uploading 
 5. **Decision**: Batch is either approved or rejected with feedback
 6. **Notification**: You receive a notification about the decision
 7. **Next Steps**: 
-   - **If Approved**: Products are ready for synchronization to Catsy
+   - **If Approved**: Products are ready for synchronization
    - **If Rejected**: Review feedback, correct issues, and resubmit
 
 ### Batch Statuses
@@ -39,7 +39,7 @@ Understanding the batch lifecycle helps you know what to expect after uploading 
 Your batches can have one of three statuses:
 
 - **Pending** (Yellow badge): Awaiting administrator review
-- **Approved** (Green badge): All products accepted and ready for Catsy sync
+- **Approved** (Green badge): All products accepted and ready for sync
 - **Rejected** (Red badge): Batch not accepted; requires corrections and resubmission
 
 ## Accessing Batch Tracking
@@ -122,7 +122,7 @@ This section shows approval or rejection details:
 - Status: "Approved"
 - Approval Date: When the administrator approved the batch
 - Message: "All products in this batch have been approved"
-- Next steps: Products will be synchronized to Catsy
+- Next steps: Products will be synchronized
 
 **For Rejected Batches**:
 - Status: "Rejected"
@@ -195,11 +195,11 @@ You can review all products to verify what was submitted in the batch.
 **What it means**:
 - Administrators have reviewed and accepted your batch
 - All products in the batch meet quality standards
-- Products are approved for synchronization to Catsy
+- Products are approved for synchronization
 - Your submission was successful
 
 **What happens next**:
-- Products will be synchronized to Catsy by administrators
+- Products will be synchronized by administrators
 - Products become part of the official product catalog
 - You can view approved products in the Products page
 - Your approval rate statistics improve
@@ -217,7 +217,7 @@ You can review all products to verify what was submitted in the batch.
 **What it means**:
 - Administrators reviewed your batch and found issues
 - Products do not meet quality standards or requirements
-- Batch cannot be synchronized to Catsy in its current state
+- Batch cannot be synchronized in its current state
 - You need to correct the issues and resubmit
 
 **What happens next**:
@@ -700,7 +700,7 @@ The Excel file includes:
 | Status | Color | Icon | Meaning | Your Action |
 |--------|-------|------|---------|-------------|
 | **Pending** | Yellow | Clock | Awaiting admin review | Wait 24-48 hours, monitor notifications |
-| **Approved** | Green | Checkmark | Batch accepted | No action needed, products will sync to Catsy |
+| **Approved** | Green | Checkmark | Batch accepted | No action needed, products will sync |
 | **Rejected** | Red | X | Batch not accepted | Review feedback, correct issues, resubmit |
 
 ### Timeline Event Types

@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Product Management page provides a centralized view of all products you've submitted to the Vendor Portal. This interface allows you to view, search, filter, and manage your product submissions throughout their lifecycle—from initial upload through approval and synchronization to Catsy.
+The Product Management page provides a centralized view of all products you've submitted to the Vendor Portal. This interface allows you to view, search, filter, and manage your product submissions throughout their lifecycle—from initial upload through approval and synchronization.
 
 Unlike the batch-focused view, the Product Management page gives you a product-centric perspective, making it easy to track individual products, view their detailed information, and understand their current status in the approval workflow.
 
@@ -12,7 +12,7 @@ Unlike the batch-focused view, the Product Management page gives you a product-c
 
 ### What is a Product?
 
-A **product** is an individual item you've submitted for approval and eventual synchronization to the Catsy product information management system. Each product has:
+A **product** is an individual item you've submitted for approval and eventual synchronization. Each product has:
 
 - **Unique SKU**: A product identifier that must be unique across your submissions
 - **Name**: The product's display name
@@ -28,7 +28,7 @@ Understanding the product lifecycle helps you track where each product is in the
 
 1. **Draft**: Product created but not yet submitted (if manual creation is enabled)
 2. **Pending**: Product uploaded and awaiting administrator review
-3. **Approved**: Product accepted by administrators and ready for Catsy sync
+3. **Approved**: Product accepted by administrators and ready for sync
 4. **Rejected**: Product not accepted; requires corrections and resubmission
 
 ### Product vs Batch View
@@ -153,18 +153,18 @@ Each product in the list has action buttons that allow you to interact with it:
 - Approved products typically cannot be edited
 - Changes to pending products may reset the review process
 
-### Sync to Catsy
+### Sync Product
 
 **Icon**: Refresh icon (🔄)
 
-**Purpose**: Manually trigger synchronization of an approved product to Catsy
+**Purpose**: Manually trigger synchronization of an approved product
 
 **When available**: Only for products with "Approved" status
 
 **When to use**:
 - After a product is approved and you want to ensure it's synced
 - To retry a failed sync
-- To manually push a product to Catsy
+- To manually push a product to the system
 
 **How to use**:
 1. Locate an approved product
@@ -302,17 +302,17 @@ Click the **Close** button at the bottom of the modal to return to the product l
 **What it means**:
 - Administrators have reviewed and accepted your product
 - Product meets all quality standards
-- Ready for synchronization to Catsy
+- Ready for synchronization
 
 **What happens next**:
-- Product will be synchronized to Catsy
+- Product will be synchronized
 - Product becomes part of the official catalog
 - You can manually trigger sync if needed
 
 **What you should do**:
 - Celebrate your successful submission!
 - Note what worked well for future products
-- Optionally trigger manual sync to Catsy
+- Optionally trigger manual sync
 - Continue with your next products
 
 **Visual indicator**: Green badge
@@ -322,7 +322,7 @@ Click the **Close** button at the bottom of the modal to return to the product l
 **What it means**:
 - Administrators reviewed your product and found issues
 - Product does not meet quality standards or requirements
-- Cannot be synchronized to Catsy in its current state
+- Cannot be synchronized in its current state
 
 **What happens next**:
 - Review the rejection feedback (available in batch details)
@@ -397,7 +397,7 @@ To see your complete product list:
 
 ### Scenario 3: Syncing an Approved Product
 
-**Situation**: Your product was approved and you want to ensure it's synced to Catsy.
+**Situation**: Your product was approved and you want to ensure it's synced.
 
 **Steps**:
 1. Filter or search for approved products
@@ -407,7 +407,7 @@ To see your complete product list:
 5. Check for a success notification
 6. Verify the product's sync status
 
-**Expected outcome**: Product is successfully synchronized to Catsy and available in the catalog.
+**Expected outcome**: Product is successfully synchronized and available in the catalog.
 
 ### Scenario 4: Finding Rejected Products
 
@@ -466,7 +466,7 @@ To see your complete product list:
 
 **Approved products**:
 - Verify they appear in your approved list
-- Optionally trigger manual sync to Catsy
+- Optionally trigger manual sync
 - Use as examples for future submissions
 
 **Rejected products**:
@@ -522,7 +522,7 @@ To see your complete product list:
 - If pending, wait for review to complete
 - Contact your administrator if you need to make urgent changes
 
-### Scenario: Sync to Catsy Fails
+### Scenario: Sync Fails
 
 **Issue**: Manual sync operation fails or shows an error.
 
@@ -531,7 +531,7 @@ To see your complete product list:
 - Check the error message in the notification
 - Wait a few minutes and try again
 - Verify your internet connection
-- Check if Catsy is accessible
+- Check if the system is accessible
 - Contact your administrator if sync continues to fail
 
 ### Scenario: Product Status Not Updating
@@ -606,7 +606,7 @@ To see your complete product list:
 |--------|-------|------|---------|-------------|
 | **Draft** | Blue | Document | Not yet submitted | Complete and submit |
 | **Pending** | Yellow | Clock | Awaiting admin review | Wait 24-48 hours, monitor notifications |
-| **Approved** | Green | Checkmark | Product accepted | Optionally sync to Catsy |
+| **Approved** | Green | Checkmark | Product accepted | Optionally sync |
 | **Rejected** | Red | X | Product not accepted | Review feedback, correct issues, resubmit |
 
 ### Action Icons
@@ -615,7 +615,7 @@ To see your complete product list:
 |------|--------|---------|--------------|
 | 👁️ | View | See complete product details | All products |
 | ✏️ | Edit | Modify product information | Draft/Pending products |
-| 🔄 | Sync | Sync to Catsy | Approved products only |
+| 🔄 | Sync | Sync to system | Approved products only |
 | 🗑️ | Delete | Remove product | Draft/Rejected products |
 
 ## Related Topics

@@ -289,7 +289,7 @@ After building and completing your template:
 
 ### Configuration & Attributes
 - **Admin Attribute Management** - How attributes are created and organized
-- **Admin Category Management** - How categories are synced from Catsy
+- **Admin Category Management** - How categories are managed
 
 ### Common Documentation
 - **[Troubleshooting](../common/troubleshooting.md)** - Solutions for template and upload issues

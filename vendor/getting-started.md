@@ -6,7 +6,7 @@ Welcome to the Vendor Portal! This guide will help you get started as a vendor u
 
 ## Vendor Role Overview
 
-As a vendor user, you are responsible for submitting product information to the portal for review and approval by administrators. Once approved, your products will be synchronized to Catsy (Product Information Management system) for publication.
+As a vendor user, you are responsible for submitting product information to the portal for review and approval by administrators. Once approved, your products will be synchronized to the system for publication.
 
 ### Key Responsibilities
 
@@ -132,7 +132,7 @@ Shows your recent batch submissions:
 
 **Status Indicators**:
 - 🟡 **Pending** - Awaiting admin review
-- 🟢 **Approved** - Products accepted and ready for Catsy sync
+- 🟢 **Approved** - Products accepted and ready for sync
 - 🔴 **Rejected** - Products need correction and resubmission
 
 ### Status Distribution Chart
@@ -188,7 +188,7 @@ Pre-formatted Excel files for uploading products:
 Hierarchical classification system for organizing products:
 
 - Products must be assigned to a category
-- Categories are synced from Catsy
+- Categories are managed by administrators
 - You select categories when building templates
 - Categories help organize and classify your products
 
@@ -227,7 +227,7 @@ The process your products go through:
 2. **Pending** - Products await admin review
 3. **Review** - Admin reviews your batch
 4. **Approved/Rejected** - Admin makes a decision
-5. **Catsy Sync** - Approved products sync to Catsy (done by admin)
+5. **Sync** - Approved products sync to the system (done by admin)
 
 ## Quick Start: Submitting Your First Products
 

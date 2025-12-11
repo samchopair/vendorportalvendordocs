@@ -89,7 +89,7 @@ Action: Click to view batch details
 **Example**:
 ```
 Title: Batch Approved: BATCH-20251110-001
-Message: Great news! Your batch BATCH-20251110-001 with 25 product(s) has been approved. Products will be synced to Catsy.
+Message: Great news! Your batch BATCH-20251110-001 with 25 product(s) has been approved. Products will be synced.
 Action: Click to view batch details
 ```
 
@@ -97,7 +97,7 @@ Action: Click to view batch details
 
 **What to do**:
 - Review the approved batch details
-- Your products will be automatically synced to Catsy
+- Your products will be automatically synced
 - Continue with your next submission
 
 **Celebration**: This is good news! Your products met all requirements and have been accepted.
